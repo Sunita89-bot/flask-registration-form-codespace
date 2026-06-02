@@ -1,0 +1,38 @@
+Task 1: Create a Dictionary of Student Marks
+# TASK 1
+# Create dictionary
+student_marks = {
+    "Supriya": 85,
+    "Priya": 90,
+    "Riya": 78,
+    "Siya": 92
+}
+
+# Take input
+name = input("Enter the student's name: ")
+
+# Check and display marks
+if name in student_marks:
+    print(f"{name}'s marks: {student_marks[name]}")
+else:
+    print("Student not found.")
+
+print("THANK YOU")
+
+# Task 2: Demonstrate List Slicing 
+
+# Create list from 1 to 10
+numbers = list(range(1, 11))
+
+# Extract first five elements
+first_five = numbers[0:5:1]
+
+# Reverse extracted list
+reversed_list = first_five[::-1]
+
+# Print results
+print("Original list:", numbers)
+print("First five elements:", first_five)
+print("Reversed list:", reversed_list)
+
+print("THANK YOU")
